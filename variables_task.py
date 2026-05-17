@@ -1,23 +1,12 @@
-# variable task
+pi = 22 / 7
+print(pi)
+print(type(pi))
 
-a = 22/7
+principal = 10000
+rate = 5
+time = 3
 
-print(a)
-print(type(a))
+simple_interest = (principal * rate * time) / 100
+print(simple_interest)
 
-print("----------------")
-
-# for = 4
-# showing error because for is a keyword
-
-print("for is a keyword so we cannot use it as variable")
-
-print("----------------")
-
-p = 5000
-r = 4
-t = 3
-
-si = (p*r*t)/100
-
-print("Simple Interest is", si)
+print("for is a keyword and cannot be used as a variable name")
